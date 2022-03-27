@@ -1,0 +1,204 @@
+{
+	// Main options
+	"window.zoomLevel": 0,
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"files.autoSave": "afterDelay",
+	"explorer.confirmDelete": false,
+	"breadcrumbs.enabled": false,
+	"editor.wordWrap": "on",
+	"editor.linkedEditing": true,
+	"editor.cursorBlinking": "expand",
+
+	// Font
+	"editor.fontSize": 18,
+	"editor.fontFamily": "'Operator Mono Lig'",
+	"editor.fontWeight": "400",
+	"terminal.integrated.fontFamily": "MesloLGS NF",
+	"editor.fontLigatures": true,
+
+	// ErrorLens and brackets settings + colors
+	"editor.guides.bracketPairs": "active",
+	"editor.bracketPairColorization.enabled": true,
+	"workbench.colorCustomizations": {
+		"editorBracketHighlight.foreground1": "#ffd700",
+		"editorBracketHighlight.foreground2": "#ff00ff",
+		"editorBracketHighlight.foreground3": "#00bfff",
+		"editorBracketHighlight.foreground4": "#7cfc00",
+		"editorBracketHighlight.unexpectedBracket.foreground": "#ff0000",
+		"errorLens.hintForeground": "#ffc600A1",
+		"errorLens.hintBackground": "#ffc60003",
+		"errorLens.errorBackground": "#ff000005"
+	},
+	"errorLens.fontSize": "12",
+	"errorLens.fontFamily": "Comic Sans MS",
+	"errorLens.onSave": true,
+	"errorLens.enabledDiagnosticLevels": ["error", "warning", "hint"],
+	"errorLens.exclude": ["never (read|used)"],
+
+	// Prettier
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxSingleQuote": true,
+	"prettier.semi": false,
+	"prettier.useTabs": true,
+	"jsx-closing-bracket-location": [1, "after-props"],
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"prettier.singleQuote": true,
+
+	// Emmet
+	"emmet.syntaxProfiles": {
+		"html": {
+			"inline_break": 2
+		}
+	},
+	"emmet.variables": {
+		"lang": "pl"
+	},
+	"emmet.includeLanguages": {
+		"javascript": "javascriptreact"
+	},
+
+	// Live Server
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.donotVerifyTags": true,
+
+	// Other options
+	"editor.quickSuggestionsDelay": 30,
+	"editor.suggestFontSize": 18,
+	"editor.cursorStyle": "line",
+	"workbench.editor.tabSizing": "shrink",
+	"files.trimTrailingWhitespace": true,
+	"editor.minimap.enabled": false,
+	"explorer.confirmDragAndDrop": false,
+	"explorer.compactFolders": false,
+	"tabnine.experimentalAutoImports": true,
+	"editor.suggestSelection": "first",
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"editor.minimap.showSlider": "always",
+	"workbench.startupEditor": "newUntitledFile",
+	"extensions.ignoreRecommendations": false,
+	"workbench.colorTheme": "Cobalt2",
+	"window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+	"workbench.tree.indent": 20,
+	"editor.parameterHints.enabled": false,
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.renderControlCharacters": true,
+	"editor.renderWhitespace": "trailing",
+	"editor.copyWithSyntaxHighlighting": false,
+	"gitlens.advanced.messages": {
+		"suppressGitDisabledWarning": true,
+		"suppressGitMissingWarning": true
+	},
+	"terminal.integrated.env.osx": {
+		"FIG_NEW_SESSION": "1"
+	},
+	"editor.accessibilitySupport": "off",
+
+	"git.autofetch": true,
+	"gitlens.hovers.currentLine.over": "line",
+	"workbench.productIconTheme": "fluent-icons",
+
+	// Where shoud be italic and where not
+	"editor.tokenColorCustomizations": {
+		"textMateRules": [
+			{
+				"scope": [
+					"comment",
+					"entity.name.type.class",
+					"constant",
+					"storage.modifier",
+					"storage.type.class.js",
+					"keyword.",
+					"comment",
+					"constant"
+				],
+				"settings": {
+					"fontStyle": "italic"
+				}
+			},
+			{
+				"scope": [
+					"invalid",
+					"keyword.operator",
+					"constant.numeric.css",
+					"keyword.other.unit.px.css",
+					"constant.numeric.decimal.js",
+					"constant.numeric.json"
+				],
+				"settings": {
+					"fontStyle": ""
+				}
+			}
+		]
+	},
+
+	// Better Comments
+	"better-comments.tags": [
+		{
+			"tag": "!",
+			"color": "#FF2D00",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "?",
+			"color": "#3498DB",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "//",
+			"color": "#474747",
+			"strikethrough": true,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "todo",
+			"color": "#ffc600",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "*",
+			"color": "#98C379",
+			"strikethrough": false,
+			"underline": false,
+			"backgroundColor": "transparent",
+			"bold": false,
+			"italic": false
+		},
+		{
+			"tag": "Solution",
+			"color": "#193549",
+			"strikethrough": false,
+			"underline": true,
+			"backgroundColor": "#ffc600",
+			"bold": true,
+			"italic": true
+		},
+		{
+			"tag": "Task",
+			"color": "#ffc600",
+			"strikethrough": false,
+			"underline": true,
+			"backgroundColor": "Transparent",
+			"bold": true,
+			"italic": true
+		}
+	]
+}
