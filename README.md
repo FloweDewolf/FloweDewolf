@@ -44,5 +44,5 @@ But today I don't remember it at all 😂
 
 # My own achievements 🏆
 - In 2020/21 I lost 25kg in just 8 months
-- In 2020/21 I learned english from A1 to B2 level too
+- In 2020/21 I learned english from A1 to B2 level
 - In December 2021 I started to learn web development and I achieved it in 3 months by studying a lot, often from morning till evening
