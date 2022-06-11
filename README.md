@@ -41,3 +41,8 @@ But today I don't remember it at all 😂
 <img src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"></img>
 <img src="https://img.shields.io/badge/prettier-1A2C34?style=for-the-badge&logo=prettier&logoColor=F7BA3E"></img>
 <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"></img>
+
+# My own achievements 🏆
+- In 2020/21 I lost 25kg in just 8 months
+- In 2020/21 I learned english from A1 to B2 level too
+- In December 2021 I started to learn web development and I achieved it in 3 months by studying a lot, often from morning till evening
