@@ -1,6 +1,5 @@
 # Hi I'm Mateusz 👋
 ## How to reach me
-<img src="https://img.shields.io/badge/website-000000?style=for-the-badge&logo=About.me&logoColor=white"></img>
 <a href="mailto:business.mateusz.wilk@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></img></a>
 <a href="https://www.linkedin.com/in/mateusz-wilk-941a091b2/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></img></a>
 ## I use and love 👨‍💻❤
